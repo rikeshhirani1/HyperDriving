@@ -1,0 +1,286 @@
+body {
+}
+
+/*Top Navagation Menu Bar - Start*/
+.navbar-default {
+    background-color: white;
+}
+
+.navbar-default .nav>li.active>a, .navbar-default .nav>li.active>a:focus {
+    color: Black !important;
+    background-color: transparent;
+}
+
+#pageTitle, #menuTitle{
+    color: #28D1B0;
+}
+
+#companyTitle{
+    margin-top: 1px;
+    height: 20px;
+}
+
+#companyTitleShort{
+    margin-top: 1px;
+    height: 20px;
+    display: none;
+}
+/*Top Navagation Menu Bar - End*/
+
+#logo{
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-primary {
+    background-color: #28D1B0 !important;
+}
+
+.text-faded{
+    color: Black;
+}
+
+.section-heading{
+    color: Black;
+}
+
+hr {
+    border-color: White !important;
+    max-width: 125px;
+}
+
+#lessonPrice{
+    font-size: 45px;
+}
+
+#lessonPriceSmall{
+    font-size: 22px;
+}
+
+#btnContainer{
+    display: block; 
+}
+
+#mainContentBtn1{
+    display: inline-block;
+    min-width: 225px;
+    /*margin-right: 20px;*/
+    float: right !important;
+}
+
+#mainContentBtn2{
+    display: inline-block;
+    min-width: 225px;
+    /*margin-left: 20px;*/
+    float: left !important;
+}
+
+p.mainContent{
+  color: white !important;
+  text-transform: uppercase;
+  font-family:'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+.btn-primary {
+    color: Black;
+    background-color: #28D1B0 !important;
+    border-color: #28D1B0 !important;
+}
+
+.text-primary{
+    color: #28D1B0;
+}
+
+hr.primary{
+    border-color: #28D1B0 !important;
+}
+
+
+
+/*Reviews or/and Useful Resources Section - Start*/
+#review, #resource {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal; 
+  padding: 15px 20px 15px 20px;     
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  font-family:'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+#tile1{    
+    height: 250px;
+    background-color: #28D1B0;
+    line-height: 250px;
+    text-align: center;
+    color: white;
+}
+
+#tile2{
+    height: 250px;
+    background-color: #b3fff0;
+    line-height: 250px;
+    text-align: center;
+    color: black;
+}
+
+#star{ 
+    color: #ffd800;
+}
+
+.smallTxt{
+    font-size: 10.5px;
+}
+/*Reviews or/and Useful Resources Section - End*/
+
+/*Google Maps Section - Start*/
+section.map {
+    height: 450px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.map iframe {
+    pointer-events: none; /*Disabled to prevent Page Scroll Clash with Google Maps Scroll*/
+}
+
+@media (max-width:768px) {
+    .map {
+        height: 65%;
+    }
+}
+/*Google Maps Section - End*/
+
+/*Contact Section - Start*/
+a.contactTxt{
+    color: black;
+}
+
+#contactPhoneIcon{
+    color: #28D1B0;
+}
+
+#contactMailIcon{
+    color: #04a283;
+}
+
+#contactFBIcon{
+    color: #3B5998;
+}
+
+#contactTwitterIcon{
+    color: #1DA1F2;
+}
+
+#contactInstagramIcon{
+    color: black;
+}
+/*Contact Section - End*/
+
+/*Cookies Section and Content - Start*/
+#cookieMessage{
+    position: fixed;
+    bottom: -20px;
+    right: 0px;
+    background-color: Black;
+    border: 2px solid #c3c3c3;
+    color: white; 
+}
+
+#cookieBtn{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 90px;
+}
+
+#cookieTxt{
+    font-size: 12px;
+    padding-right: 80px !important;
+}
+
+#cookieLink{
+    border-bottom: 1px dotted white; /*Dotted Underline*/
+    color: white;
+}
+
+#cookieLink:hover{
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.modal-footer{
+    border-top: none !important;
+}
+
+#cookiesWebLink{
+    color: black;
+}
+/*Cookies Section and Content - End*/ 
+
+@media (max-width:425px){
+    #tile1, #tile2{
+        height: 275px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #review, #resource {
+        padding: 5px 10px 5px 10px;     
+    }
+}
+
+@media (max-width: 841px){
+    #companyTitle {
+        margin-top: 2px;
+    }
+}
+
+@media (max-width: 460px){
+    #companyTitle{
+        display: none;
+    }
+
+    #companyTitleShort { 
+        display: block;
+        margin-top: 2px;
+    }
+}
+
+@media (min-width:842px) and (max-width: 970px){
+    #companyTitle{
+        display: none;
+    }
+
+    #companyTitleShort {   
+        display: block;
+    }
+}
+
+@media (min-width:450px) and (max-width: 768px) {
+    #mainContentBtn1{
+        width: 75%;
+        margin-bottom: 15px;
+        float: none !important;
+    }
+
+    #mainContentBtn2{
+        width: 75%; 
+        float: none !important;
+    }
+}
+
+@media (max-width: 450px) {
+    #mainContentBtn1{
+        width: 90%;   
+        margin-bottom: 15px;
+        float: none !important;
+    }
+
+    #mainContentBtn2{
+        width: 90%; 
+        float: none !important;
+    }
+}
